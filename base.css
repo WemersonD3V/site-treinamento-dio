@@ -1,0 +1,107 @@
+html,
+body {
+    margin: 0;
+
+
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(0, 0, 0);
+    padding: 10px 20px 0px;
+    color: white;
+}
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    margin-bottom: 10px;
+}
+.menu ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    
+}
+
+.header {
+    background-color: white;
+    min-height: 150px;
+    display: flex;
+    padding: 30px;
+}
+
+.header div {
+    display: flex;
+    align-items: center;
+
+}
+
+.header p {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.header span {
+    margin-top: 10px;
+}
+
+.header img {
+    width: 200px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    min-height: 150px;
+    color: white;
+}
+table{
+    border: 1px solid rgba(128, 128, 128, 0.155);
+    padding: 1px;
+}
+table td,th {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.158);
+}
+form fieldset {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 15px;
+    margin: 10px;
+}
+textarea {
+    resize: none;
+    width: 300px;
+    height: 150px;
+}
+
